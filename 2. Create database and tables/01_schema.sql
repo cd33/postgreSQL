@@ -1,0 +1,2 @@
+REVOKE CREATE ON SCHEMA public FROM pacha;
+REVOKE CONNECT ON DATABASE pachadataformation FROM pacha;

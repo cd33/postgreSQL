@@ -1,0 +1,11 @@
+SELECT *
+FROM contact.contact
+LIMIT 10 OFFSET 10;
+
+SELECT *
+FROM contact.contact
+OFFSET 10 ROWS FETCH NEXT 10 ROWS ONLY;
+
+SELECT @ -45
+
+SELECT 45::text
